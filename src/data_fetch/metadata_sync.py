@@ -2,6 +2,7 @@ import os
 import json
 import pandas as pd
 import requests
+import io
 from datetime import datetime
 from src.config import settings
 from src.data_fetch.data_fetcher import DataFetcher
@@ -60,10 +61,21 @@ class MetadataSync:
             old_metadata = {}
 
         # Convert new DF to dict: SYMBOL -> metadata
+        # We want to MERGE with existing metadata to preserve custom fields like INDICES
         new_metadata = {}
         for _, row in new_df.iterrows():
             symbol = row["SYMBOL"]
-            new_metadata[symbol] = row.to_dict()
+            row_data = row.to_dict()
+            
+            if symbol in old_metadata:
+                # Start with existing data
+                merged_data = old_metadata[symbol].copy()
+                # Update with new data from CSV (overwriting NSE fields)
+                merged_data.update(row_data)
+                new_metadata[symbol] = merged_data
+            else:
+                # New stock
+                new_metadata[symbol] = row_data
 
         # Identify changes
         old_symbols = set(old_metadata.keys())
@@ -108,3 +120,103 @@ class MetadataSync:
                 fetcher.fetch_all(symbol)
 
         print("Data files sync complete.")
+
+    def update_index_constituents(self, index_name, csv_url):
+        """
+        Updates stocks_metadata.json with index information from a given NSE CSV URL.
+        """
+        print(f"Updating constituents for index: {index_name} from {csv_url}")
+        
+        try:
+            # Use a session to handle potential cookie requirements
+            session = requests.Session()
+            session.headers.update(self.headers)
+            # Visit homepage first
+            session.get("https://www.nseindia.com")
+            
+            response = session.get(csv_url)
+            response.raise_for_status()
+            content = response.text
+            
+            # Robust parsing strategy
+            # Find the start of data - usually the index name is in the first column of the first data row
+            # But the header is messy. Let's look for the index name in quotes as a marker if possible,
+            # or just try to find the header line if we knew it.
+            # Based on testing, finding the index name string works well as a data start marker.
+            
+            # However, the index name in the CSV might be slightly different or just "NIFTY SMALLCAP 100"
+            # Let's try to find the start of the data by looking for the first line that looks like data
+            # or by stripping the bad header.
+            
+            # Strategy from testing: Find the index name in the content
+            # The CSV usually starts with metadata/garbage and then the actual data rows start.
+            # The first column is "SYMBOL" (or similar) in the header, but the header is broken.
+            # The first data row usually contains the index name in the first column? 
+            # Wait, in the test output: "NIFTY SMALLCAP 100","17,875.70"...
+            # And then "NATCOPHARM","907.70"...
+            # So the first row is the index itself, and subsequent rows are stocks.
+            # We need to extract symbols from the subsequent rows.
+            
+            # Let's find the line that starts with "NIFTY SMALLCAP 100" (or whatever the index name is)
+            # and treat that as the start of data (or the line before it as header).
+            # Actually, we can just look for the "SYMBOL" column if we clean the header, 
+            # but the header was broken.
+            
+            # Let's use the strategy that worked: Find the index name, treat that as start of data,
+            # prepend a clean header.
+            
+            # Note: The index name in the CSV might be quoted.
+            search_marker = f'"{index_name}"'
+            start_index = content.find(search_marker)
+            
+            if start_index == -1:
+                # Try without quotes
+                search_marker = index_name
+                start_index = content.find(search_marker)
+                
+            if start_index == -1:
+                print(f"Could not find data start marker '{index_name}' in response.")
+                return
+
+            raw_data = content[start_index:]
+            
+            # Define clean header
+            clean_header = '"SYMBOL","OPEN","HIGH","LOW","PREV. CLOSE","LTP","INDICATIVE CLOSE","CHNG","%CHNG","VOLUME","VALUE","52W H","52W L","30 D %CHNG","365 D % CHNG"\n'
+            final_csv = clean_header + raw_data
+            
+            df = pd.read_csv(io.StringIO(final_csv))
+            
+            # Filter out the index itself if it appears as a row (it usually does as the first row)
+            # The index row usually has the index name in the SYMBOL column
+            df = df[df["SYMBOL"] != index_name]
+            
+            symbols_in_index = df["SYMBOL"].tolist()
+            print(f"Found {len(symbols_in_index)} stocks in {index_name}")
+            
+            # Update metadata
+            if os.path.exists(self.metadata_file):
+                with open(self.metadata_file, "r") as f:
+                    metadata = json.load(f)
+            else:
+                print("Metadata file not found. Please run sync_metadata first.")
+                return
+                
+            updated_count = 0
+            for symbol in symbols_in_index:
+                if symbol in metadata:
+                    if "INDICES" not in metadata[symbol]:
+                        metadata[symbol]["INDICES"] = []
+                    
+                    if index_name not in metadata[symbol]["INDICES"]:
+                        metadata[symbol]["INDICES"].append(index_name)
+                        updated_count += 1
+                else:
+                    print(f"Warning: Stock {symbol} from index {index_name} not found in master metadata.")
+            
+            with open(self.metadata_file, "w") as f:
+                json.dump(metadata, f, indent=4)
+                
+            print(f"Updated {updated_count} stocks with {index_name} tag.")
+            
+        except Exception as e:
+            print(f"Error updating index constituents: {e}")
