@@ -107,7 +107,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE883F01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AAKASH": {
         "SYMBOL": "AAKASH",
@@ -167,7 +170,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE769A01020",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AARTIPHARM": {
         "SYMBOL": "AARTIPHARM",
@@ -317,7 +323,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE055A01016",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ABSLAMC": {
         "SYMBOL": "ABSLAMC",
@@ -447,7 +456,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE423A01024",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ADANIGREEN": {
         "SYMBOL": "ADANIGREEN",
@@ -467,7 +479,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE742F01042",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ADANIPOWER": {
         "SYMBOL": "ADANIPOWER",
@@ -577,7 +592,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE208C01025",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AEGISVOPAK": {
         "SYMBOL": "AEGISVOPAK",
@@ -587,7 +605,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE0INX01018",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AEROENTER": {
         "SYMBOL": "AEROENTER",
@@ -637,7 +658,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE101I01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AFFLE": {
         "SYMBOL": "AFFLE",
@@ -647,7 +671,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE00WC01027",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AFFORDABLE": {
         "SYMBOL": "AFFORDABLE",
@@ -1127,7 +1154,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE371P01015",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "AMBICAAGAR": {
         "SYMBOL": "AMBICAAGAR",
@@ -1207,7 +1237,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE463V01026",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ANANTRAJ": {
         "SYMBOL": "ANANTRAJ",
@@ -1217,7 +1250,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE242C01024",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ANDHRAPAP": {
         "SYMBOL": "ANDHRAPAP",
@@ -1247,7 +1283,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE732I01013",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ANIKINDS": {
         "SYMBOL": "ANIKINDS",
@@ -1427,7 +1466,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE437A01024",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "APOLLOPIPE": {
         "SYMBOL": "APOLLOPIPE",
@@ -1477,7 +1519,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE852O01025",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ARCHIDPLY": {
         "SYMBOL": "ARCHIDPLY",
@@ -1507,7 +1552,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE885A01032",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ARENTERP": {
         "SYMBOL": "ARENTERP",
@@ -1817,7 +1865,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE021A01026",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ASIANTILES": {
         "SYMBOL": "ASIANTILES",
@@ -1877,7 +1928,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE914M01019",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ASTRAL": {
         "SYMBOL": "ASTRAL",
@@ -2017,7 +2071,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE100A01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ATULAUTO": {
         "SYMBOL": "ATULAUTO",
@@ -2237,7 +2294,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE238A01034",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "AXISCADES": {
         "SYMBOL": "AXISCADES",
@@ -2317,7 +2377,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE917I01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "BAJAJCON": {
         "SYMBOL": "BAJAJCON",
@@ -2347,7 +2410,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE918I01026",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "BAJAJHCARE": {
         "SYMBOL": "BAJAJHCARE",
@@ -2417,7 +2483,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE296A01032",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "BALAJEE": {
         "SYMBOL": "BALAJEE",
@@ -2557,7 +2626,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE545U01014",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "BANG": {
         "SYMBOL": "BANG",
@@ -2777,7 +2849,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE263A01024",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "BELLACASA": {
         "SYMBOL": "BELLACASA",
@@ -2807,7 +2882,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE258A01024",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "BEPL": {
         "SYMBOL": "BEPL",
@@ -2977,7 +3055,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE397D01024",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "BHARTIHEXA": {
         "SYMBOL": "BHARTIHEXA",
@@ -3157,7 +3238,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE153T01027",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "BLSE": {
         "SYMBOL": "BLSE",
@@ -3347,7 +3431,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE791I01019",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "BRIGHOTEL": {
         "SYMBOL": "BRIGHOTEL",
@@ -3507,7 +3594,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE596I01012",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CANBK": {
         "SYMBOL": "CANBK",
@@ -3657,7 +3747,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE172A01027",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CCCL": {
         "SYMBOL": "CCCL",
@@ -3697,7 +3790,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE736A01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CEATLTD": {
         "SYMBOL": "CEATLTD",
@@ -3837,7 +3933,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE486A01021",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CEWATER": {
         "SYMBOL": "CEWATER",
@@ -3857,7 +3956,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE180C01042",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CGPOWER": {
         "SYMBOL": "CGPOWER",
@@ -3887,7 +3989,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE085A01013",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CHEMBOND": {
         "SYMBOL": "CHEMBOND",
@@ -3987,7 +4092,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE149A01033",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CIEINDIA": {
         "SYMBOL": "CIEINDIA",
@@ -4047,7 +4155,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE059A01026",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "CLEAN": {
         "SYMBOL": "CLEAN",
@@ -4097,7 +4208,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE522F01014",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "COASTCORP": {
         "SYMBOL": "COASTCORP",
@@ -4367,7 +4481,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE741K01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CREST": {
         "SYMBOL": "CREST",
@@ -4407,7 +4524,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE299U01018",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CROWN": {
         "SYMBOL": "CROWN",
@@ -4527,7 +4647,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE136B01020",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "CYIENTDLM": {
         "SYMBOL": "CYIENTDLM",
@@ -4617,7 +4740,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE0IX101010",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "DAVANGERE": {
         "SYMBOL": "DAVANGERE",
@@ -4827,7 +4953,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE501A01019",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "DEEPAKNTR": {
         "SYMBOL": "DEEPAKNTR",
@@ -4857,7 +4986,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE148O01028",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "DELPHIFX": {
         "SYMBOL": "DELPHIFX",
@@ -4947,7 +5079,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE872J01023",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "DGCONTENT": {
         "SYMBOL": "DGCONTENT",
@@ -5347,7 +5482,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE089A01031",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "DSSL": {
         "SYMBOL": "DSSL",
@@ -5517,7 +5655,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE066A01021",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "EIDPARRY": {
         "SYMBOL": "EIDPARRY",
@@ -5977,7 +6118,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE758T01015",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ETHOSLTD": {
         "SYMBOL": "ETHOSLTD",
@@ -6317,7 +6461,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE02RE01045",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "FISCHER": {
         "SYMBOL": "FISCHER",
@@ -6337,7 +6484,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE128S01021",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "FLAIR": {
         "SYMBOL": "FLAIR",
@@ -6457,7 +6607,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE684F01012",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "FUSION": {
         "SYMBOL": "FUSION",
@@ -6777,7 +6930,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE017A01032",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "GFLLIMITED": {
         "SYMBOL": "GFLLIMITED",
@@ -6847,7 +7003,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE322A01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "GINNIFILA": {
         "SYMBOL": "GINNIFILA",
@@ -6897,7 +7056,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE068V01023",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "GLAXO": {
         "SYMBOL": "GLAXO",
@@ -7127,7 +7289,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE03JT01014",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "GODREJAGRO": {
         "SYMBOL": "GODREJAGRO",
@@ -7337,7 +7502,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE047A01021",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "GRAVITA": {
         "SYMBOL": "GRAVITA",
@@ -7467,7 +7635,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE382Z01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "GRWRHITECH": {
         "SYMBOL": "GRWRHITECH",
@@ -7817,7 +7988,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE292B01021",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "HBSL": {
         "SYMBOL": "HBSL",
@@ -7867,7 +8041,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE860A01027",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "HDBFS": {
         "SYMBOL": "HDBFS",
@@ -7897,7 +8074,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE040A01034",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "HDFCLIFE": {
         "SYMBOL": "HDFCLIFE",
@@ -7907,7 +8087,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE795G01014",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "HDIL": {
         "SYMBOL": "HDIL",
@@ -8137,7 +8320,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE038A01020",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "HINDCOMPOS": {
         "SYMBOL": "HINDCOMPOS",
@@ -8167,7 +8353,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE531E01026",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "HINDOILEXP": {
         "SYMBOL": "HINDOILEXP",
@@ -8197,7 +8386,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE030A01027",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "HINDWAREAP": {
         "SYMBOL": "HINDWAREAP",
@@ -8407,7 +8599,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE019C01026",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "HTMEDIA": {
         "SYMBOL": "HTMEDIA",
@@ -8497,7 +8692,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE090A01021",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ICICIGI": {
         "SYMBOL": "ICICIGI",
@@ -8587,7 +8785,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE022Q01020",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "IFBAGRO": {
         "SYMBOL": "IFBAGRO",
@@ -8617,7 +8818,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE039A01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "IFGLEXPOR": {
         "SYMBOL": "IFGLEXPOR",
@@ -8657,7 +8861,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE0Q9301021",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "IGL": {
         "SYMBOL": "IGL",
@@ -8687,7 +8894,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE530B01024",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "IIFLCAPS": {
         "SYMBOL": "IIFLCAPS",
@@ -8727,7 +8937,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE115Q01022",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "IL&FSENGG": {
         "SYMBOL": "IL&FSENGG",
@@ -8907,7 +9120,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE646L01027",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "INDIGOPNTS": {
         "SYMBOL": "INDIGOPNTS",
@@ -9137,7 +9353,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE009A01021",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "INGERRAND": {
         "SYMBOL": "INGERRAND",
@@ -9197,7 +9416,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE066P01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "INSECTICID": {
         "SYMBOL": "INSECTICID",
@@ -9347,7 +9569,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE962Y01021",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "IRCTC": {
         "SYMBOL": "IRCTC",
@@ -9447,7 +9672,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE154A01025",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ITCHOTELS": {
         "SYMBOL": "ITCHOTELS",
@@ -9687,7 +9915,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE572A01036",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "JBMA": {
         "SYMBOL": "JBMA",
@@ -9697,7 +9928,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE927D01051",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "JCHAC": {
         "SYMBOL": "JCHAC",
@@ -9767,7 +10001,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE324A01032",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "JINDALSTEL": {
         "SYMBOL": "JINDALSTEL",
@@ -9807,7 +10044,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE758E01017",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "JISLDVREQS": {
         "SYMBOL": "JISLDVREQS",
@@ -10057,7 +10297,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE019A01038",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "JTEKTINDIA": {
         "SYMBOL": "JTEKTINDIA",
@@ -10147,7 +10390,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE209L01016",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "JYOTHYLAB": {
         "SYMBOL": "JYOTHYLAB",
@@ -10167,7 +10413,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE980O01024",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "JYOTISTRUC": {
         "SYMBOL": "JYOTISTRUC",
@@ -10197,7 +10446,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE217B01036",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "KAKATCEM": {
         "SYMBOL": "KAKATCEM",
@@ -10357,7 +10609,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE036D01028",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "KAUSHALYA": {
         "SYMBOL": "KAUSHALYA",
@@ -10397,7 +10652,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE918Z01012",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "KCP": {
         "SYMBOL": "KCP",
@@ -10437,7 +10695,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE389H01022",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "KECL": {
         "SYMBOL": "KECL",
@@ -10517,7 +10778,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE138Y01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "KHADIM": {
         "SYMBOL": "KHADIM",
@@ -10757,7 +11021,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE237A01028",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "KOTARISUG": {
         "SYMBOL": "KOTARISUG",
@@ -10817,7 +11084,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE220B01022",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "KPITTECH": {
         "SYMBOL": "KPITTECH",
@@ -11087,7 +11357,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE600L01024",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "LAMBODHARA": {
         "SYMBOL": "LAMBODHARA",
@@ -11167,7 +11440,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE947Q01028",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "LAXMICOT": {
         "SYMBOL": "LAXMICOT",
@@ -11487,7 +11763,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE018A01030",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "LTF": {
         "SYMBOL": "LTF",
@@ -11607,7 +11886,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE101A01026",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "M&MFIN": {
         "SYMBOL": "M&MFIN",
@@ -11877,7 +12159,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE522D01027",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "MANBA": {
         "SYMBOL": "MANBA",
@@ -12077,7 +12362,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE585B01010",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "MASFIN": {
         "SYMBOL": "MASFIN",
@@ -12157,7 +12445,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE027H01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "MAXIND": {
         "SYMBOL": "MAXIND",
@@ -12267,7 +12558,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE745G01035",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "MEDANTA": {
         "SYMBOL": "MEDANTA",
@@ -12427,7 +12721,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE002S01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "MHLXMIRU": {
         "SYMBOL": "MHLXMIRU",
@@ -12827,7 +13124,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE103A01014",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "MSPL": {
         "SYMBOL": "MSPL",
@@ -13137,7 +13437,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE987B01026",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NATHBIOGEN": {
         "SYMBOL": "NATHBIOGEN",
@@ -13187,7 +13490,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE048G01026",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NAVKARCORP": {
         "SYMBOL": "NAVKARCORP",
@@ -13237,7 +13543,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE095N01031",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NBIFIN": {
         "SYMBOL": "NBIFIN",
@@ -13257,7 +13566,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE868B01028",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NCLIND": {
         "SYMBOL": "NCLIND",
@@ -13387,7 +13699,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE239A01024",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "NETWEB": {
         "SYMBOL": "NETWEB",
@@ -13417,7 +13732,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE794A01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NEWGEN": {
         "SYMBOL": "NEWGEN",
@@ -13427,7 +13745,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE619B01017",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NEXTMEDIA": {
         "SYMBOL": "NEXTMEDIA",
@@ -13477,7 +13798,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE410P01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NHPC": {
         "SYMBOL": "NHPC",
@@ -13797,7 +14121,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE733E01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "NTPCGREEN": {
         "SYMBOL": "NTPCGREEN",
@@ -13837,7 +14164,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE531F01015",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "NUVOCO": {
         "SYMBOL": "NUVOCO",
@@ -13947,7 +14277,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE0LXG01040",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "OLECTRA": {
         "SYMBOL": "OLECTRA",
@@ -14047,7 +14380,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE213A01029",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "ONMOBILE": {
         "SYMBOL": "ONMOBILE",
@@ -14577,7 +14913,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE602A01031",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "PCJEWELLER": {
         "SYMBOL": "PCJEWELLER",
@@ -14707,7 +15046,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE457L01029",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "PGHH": {
         "SYMBOL": "PGHH",
@@ -14927,7 +15269,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE572E01012",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "PNC": {
         "SYMBOL": "PNC",
@@ -15047,7 +15392,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE511C01022",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "POWERGRID": {
         "SYMBOL": "POWERGRID",
@@ -15057,7 +15405,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE752E01010",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "POWERINDIA": {
         "SYMBOL": "POWERINDIA",
@@ -15107,7 +15458,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE0DK501011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "PRABHA": {
         "SYMBOL": "PRABHA",
@@ -15597,7 +15951,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE944F01028",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "RADIOCITY": {
         "SYMBOL": "RADIOCITY",
@@ -15757,7 +16114,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE331A01037",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "RAMCOIND": {
         "SYMBOL": "RAMCOIND",
@@ -15947,7 +16307,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE891D01026",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "REDTAPE": {
         "SYMBOL": "REDTAPE",
@@ -16027,7 +16390,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE002A01018",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "RELIGARE": {
         "SYMBOL": "RELIGARE",
@@ -16427,7 +16793,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE614G01033",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "RPPINFRA": {
         "SYMBOL": "RPPINFRA",
@@ -16747,7 +17116,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE0W2G01015",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "SAHYADRI": {
         "SYMBOL": "SAHYADRI",
@@ -17207,7 +17579,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE123W01016",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "SBIN": {
         "SYMBOL": "SBIN",
@@ -17217,7 +17592,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE062A01020",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "SCHAEFFLER": {
         "SYMBOL": "SCHAEFFLER",
@@ -17847,7 +18225,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE721A01047",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "SHRIRAMPPS": {
         "SYMBOL": "SHRIRAMPPS",
@@ -17877,7 +18258,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE810G01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "SHYAMTEL": {
         "SYMBOL": "SHYAMTEL",
@@ -17947,7 +18331,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE903U01023",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "SIGNPOST": {
         "SYMBOL": "SIGNPOST",
@@ -18647,7 +19034,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE575P01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "STARPAPER": {
         "SYMBOL": "STARPAPER",
@@ -18987,7 +19377,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE044A01036",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "SUNTECK": {
         "SYMBOL": "SUNTECK",
@@ -19247,7 +19640,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE665A01038",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "SWARAJENG": {
         "SYMBOL": "SWARAJENG",
@@ -19477,7 +19873,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE092A01019",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "TATACOMM": {
         "SYMBOL": "TATACOMM",
@@ -19497,7 +19896,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE192A01025",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TATAELXSI": {
         "SYMBOL": "TATAELXSI",
@@ -19537,7 +19939,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE081A01020",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TATATECH": {
         "SYMBOL": "TATATECH",
@@ -19627,7 +20032,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE467B01029",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TDPOWERSYS": {
         "SYMBOL": "TDPOWERSYS",
@@ -19667,7 +20075,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE669C01036",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TECHNOE": {
         "SYMBOL": "TECHNOE",
@@ -19707,7 +20118,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE010J01012",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "TEMBO": {
         "SYMBOL": "TEMBO",
@@ -20047,7 +20461,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE280A01028",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TMB": {
         "SYMBOL": "TMB",
@@ -20077,7 +20494,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE155A01022",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TNPETRO": {
         "SYMBOL": "TNPETRO",
@@ -20267,7 +20687,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE849A01020",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "TRF": {
         "SYMBOL": "TRF",
@@ -20287,7 +20710,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE064C01022",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "TRIGYN": {
         "SYMBOL": "TRIGYN",
@@ -20307,7 +20733,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE152M01016",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "TRIVENI": {
         "SYMBOL": "TRIVENI",
@@ -20577,7 +21006,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE481G01011",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "UMAEXPORTS": {
         "SYMBOL": "UMAEXPORTS",
@@ -21657,7 +22089,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE191B01025",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "WELENT": {
         "SYMBOL": "WELENT",
@@ -21747,7 +22182,10 @@
         "PAID UP VALUE": 10,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE716A01013",
-        "FACE VALUE": 10
+        "FACE VALUE": 10,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "WILLAMAGOR": {
         "SYMBOL": "WILLAMAGOR",
@@ -21807,7 +22245,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE075A01022",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY 50"
+        ]
     },
     "WOCKPHARMA": {
         "SYMBOL": "WOCKPHARMA",
@@ -21817,7 +22258,10 @@
         "PAID UP VALUE": 5,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE049B01025",
-        "FACE VALUE": 5
+        "FACE VALUE": 5,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "WONDERLA": {
         "SYMBOL": "WONDERLA",
@@ -22017,7 +22461,10 @@
         "PAID UP VALUE": 2,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE520A01027",
-        "FACE VALUE": 2
+        "FACE VALUE": 2,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ZENTEC": {
         "SYMBOL": "ZENTEC",
@@ -22027,7 +22474,10 @@
         "PAID UP VALUE": 1,
         "MARKET LOT": 1,
         "ISIN NUMBER": "INE251B01027",
-        "FACE VALUE": 1
+        "FACE VALUE": 1,
+        "INDICES": [
+            "NIFTY SMALLCAP 100"
+        ]
     },
     "ZFCVINDIA": {
         "SYMBOL": "ZFCVINDIA",

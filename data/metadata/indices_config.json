@@ -1,0 +1,10 @@
+[
+    {
+        "name": "NIFTY 50",
+        "url": "https://www.nseindia.com/api/equity-stockIndices?csv=true&index=NIFTY%2050&selectValFormat=crores"
+    },
+    {
+        "name": "NIFTY SMALLCAP 100",
+        "url": "https://www.nseindia.com/api/equity-stockIndices?csv=true&index=NIFTY%20SMALLCAP%20100&selectValFormat=crores"
+    }
+]

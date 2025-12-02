@@ -1,12 +1,3 @@
-https://www.nseindia.com/api/equity-stockIndices?csv=true&index=NIFTY%20SMALLCAP%20100&selectValFormat=crores
-
-this link gives me the csv of nifty smallcap 100 index stocks.
-Therefore in the json file i may have 1 key for each stock which basically tells me if the stock is part of any indices or not. you need add the tag for nifht smallcap 100 from the given link.
-
-the downloaded file has the info have what indicies and what data.
-
-meta data sync will do for this case too.
-
 1. make a documentation which will be used as a manual.
 2. i will make stratergy with the data. the strategy will be tested on the existing data.
 3. i will apply strategy mainly 3 categories i.e. apply on one stock, 
