@@ -1,43 +1,179 @@
-
-# src/data_fetch/data_fetcher.py
-import json
+import yfinance as yf
 import pandas as pd
-from pathlib import Path
-from src.config.settings import METADATA_FILE, DATA_RAW_DIR
+import os
+import json
+import time
+from datetime import datetime, timedelta
+from tqdm import tqdm
+from src.config import settings
 
 class DataFetcher:
-    def __init__(self):
-        self.metadata_path = METADATA_FILE
-        self.raw_data_folder = DATA_RAW_DIR
 
+    def __init__(self, delay=1.0):
+        self.folder = settings.DATA_RAW_DIR
+        self.metadata_file = settings.METADATA_FILE
+        self.delay = delay
+        
         # Load metadata
-        with open(self.metadata_path, "r") as f:
-            self.metadata = json.load(f)
+        if os.path.exists(self.metadata_file):
+            with open(self.metadata_file, 'r') as f:
+                self.metadata = json.load(f)
+            self.equity_df = pd.DataFrame.from_dict(self.metadata, orient='index')
+        else:
+            print(f"Metadata file not found at {self.metadata_file}")
+            self.metadata = {}
+            self.equity_df = pd.DataFrame()
 
-    def update_metadata_with_paths(self):
-        """Update metadata with historical data file paths."""
-        for stock, info in self.metadata.items():
-            file_path = self.raw_data_folder / f"{stock}.csv"
-            if file_path.exists():
-                self.metadata[stock]["historicaldata"] = str(file_path)
+    # -------------------------------------------------------
+    # Utility: Load CSV if exists
+    # -------------------------------------------------------
+    def _get_file_path(self, symbol):
+        return os.path.join(self.folder, f"{symbol}.csv")
+
+    # -------------------------------------------------------
+    # 1. Fetch only new data (incremental update)
+    # -------------------------------------------------------
+    def fetch_latest(self, symbol):
+        file_path = self._get_file_path(symbol)
+
+        if os.path.exists(file_path):
+            # Check for multi-header format (yfinance artifact)
+            try:
+                with open(file_path, 'r') as f:
+                    first_line = f.readline()
+                
+                if first_line.startswith("Price"):
+                    # Bad format: 3 header lines
+                    old_df = pd.read_csv(file_path, header=2, parse_dates=["Date"])
+                else:
+                    # Standard format
+                    old_df = pd.read_csv(file_path, parse_dates=["Date"])
+            except Exception as e:
+                print(f"Error reading {file_path}: {e}")
+                return None
+
+            if not old_df.empty:
+                last_date = old_df["Date"].max().date()
+                start_date = last_date + timedelta(days=1)
             else:
-                self.metadata[stock]["historicaldata"] = None
+                start_date = datetime(2000, 1, 1).date()
+        else:
+            print(f"No old data found for {symbol}. Use fetch_all().")
+            return None
 
-        # Save updated metadata
-        with open(self.metadata_path, "w") as f:
-            json.dump(self.metadata, f, indent=4)
-        print("Metadata updated successfully!")
+        today = datetime.now().date()
+        if start_date > today:
+            print(f"{symbol} already up-to-date.")
+            return None
 
-    def fetch_stock_data(self, symbol):
-        """Fetch historical data for a single stock."""
-        if symbol not in self.metadata:
-            raise ValueError(f"Stock {symbol} not found in metadata.")
-        file_path = self.metadata[symbol].get("historicaldata")
-        if not file_path or not Path(file_path).exists():
-            raise FileNotFoundError(f"Historical data file for {symbol} not found.")
-        return pd.read_csv(file_path)
+        print(f"Fetching data for {symbol} from {start_date} to {today}")
+        
+        # Rate limiting
+        time.sleep(self.delay)
+        
+        try:
+            new_data = yf.download(
+                f"{symbol}.NS",
+                start=start_date,
+                end=today + timedelta(days=1),
+                progress=False,
+            )
+        except Exception as e:
+            print(f"Error fetching {symbol}: {e}")
+            return None
 
-    def fetch_all_stocks_data(self):
-        """Fetch historical data for all stocks."""
-        return {sym: self.fetch_stock_data(sym) for sym in self.metadata.keys()}
+        if new_data.empty:
+            print(f"No new data for {symbol}.")
+            return None
 
+        new_data.reset_index(inplace=True)
+        if isinstance(new_data.columns, pd.MultiIndex):
+            new_data.columns = new_data.columns.get_level_values(0)
+
+        if os.path.exists(file_path):
+             old_df = pd.read_csv(file_path, parse_dates=["Date"])
+             final_df = pd.concat([old_df, new_data]).drop_duplicates("Date").sort_values("Date")
+        else:
+             final_df = new_data
+
+        final_df.to_csv(file_path, index=False)
+
+        print(f"{symbol} updated to {final_df['Date'].max().date()}")
+        return final_df
+
+    # -------------------------------------------------------
+    # 2. Fetch complete history (default last 20 years)
+    # -------------------------------------------------------
+    def fetch_all(self, symbol, years=20):
+        print(f"Fetching {years} years data for {symbol}...")
+
+        # Rate limiting
+        time.sleep(self.delay)
+
+        try:
+            data = yf.download(f"{symbol}.NS", period=f"{years}y", progress=False)
+        except Exception as e:
+            print(f"Error fetching {symbol}: {e}")
+            return None
+
+        if data.empty:
+            print(f"No data found for {symbol}.")
+            return None
+
+        data.reset_index(inplace=True)
+        if isinstance(data.columns, pd.MultiIndex):
+            data.columns = data.columns.get_level_values(0)
+            
+        data.to_csv(self._get_file_path(symbol), index=False)
+        print(f"{symbol} full history saved.")
+        return data
+
+    # -------------------------------------------------------
+    # 3. Fetch only today's data
+    # -------------------------------------------------------
+    def fetch_today(self, symbol):
+        today = datetime.now().date()
+        tomorrow = today + timedelta(days=1)
+
+        # Rate limiting
+        time.sleep(self.delay)
+
+        try:
+            data = yf.download(
+                f"{symbol}.NS",
+                start=today,
+                end=tomorrow,
+                progress=False
+            )
+        except Exception as e:
+            print(f"Error fetching {symbol}: {e}")
+            return None
+
+        if data.empty:
+            print(f"No data for {symbol} today.")
+            return None
+
+        data.reset_index(inplace=True)
+        if isinstance(data.columns, pd.MultiIndex):
+            data.columns = data.columns.get_level_values(0)
+            
+        print(f"Today's data for {symbol} fetched.")
+        return data
+
+    # -------------------------------------------------------
+    # 4. Fetch data using stock tag (example: largecap)
+    # -------------------------------------------------------
+    def fetch_by_tag(self, tag, latest=False):
+        if "TAG" not in self.equity_df.columns:
+            print("TAG column not found in metadata.")
+            return
+
+        tagged_symbols = self.equity_df[self.equity_df["TAG"] == tag].SYMBOL.tolist()
+
+        print(f"Found {len(tagged_symbols)} stocks with tag '{tag}'.")
+
+        for symbol in tqdm(tagged_symbols, desc=f"Fetching {tag} stocks"):
+            if latest:
+                self.fetch_latest(symbol)
+            else:
+                self.fetch_all(symbol)
