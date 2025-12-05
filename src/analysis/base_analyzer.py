@@ -71,7 +71,7 @@ class BaseAnalyzer(ABC):
             
             # Rename 'PRICE' column to 'CLOSE' for consistency
             if 'PRICE' in df.columns:
-                df.rename(columns={'PRICE': 'DATE'}, inplace=True)
+                df.rename(columns={'PRICE': 'CLOSE'}, inplace=True)
             
             # Parse date column
             if 'DATE' in df.columns:

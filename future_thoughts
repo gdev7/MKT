@@ -1,5 +1,0 @@
-like update_smallcap_indices.py updates the smallcap indices, update other indices in stocks_metadata.json. because i have now indices_config.json updated.
-1. make a documentation which will be used as a manual.
-2. i will make stratergy with the data. the strategy will be tested on the existing data.
-3. i will apply strategy mainly 3 categories i.e. apply on one stock, 
-4. for 1 strategy i can have go to certain date (for a test same date last year while making sure that is not a holiday) On that day what is the price of 
