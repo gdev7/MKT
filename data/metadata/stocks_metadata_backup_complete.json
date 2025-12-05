@@ -32634,7 +32634,7 @@
             "NIFTY TOTAL MARKET MOMENTUM QUALITY 50",
             "NIFTY500 SHARIAH"
         ],
-        "LAST_UPDATED": "2025-12-05 07:13:41",
+        "LAST_UPDATED": "2025-12-05 06:37:25",
         "BROAD_SECTOR": "Fast Moving Consumer Goods",
         "SECTOR_GROUP": "Fast Moving Consumer Goods",
         "SECTOR": "Personal Products",
@@ -33006,155 +33006,12 @@
         "BSE_CODE": "507815",
         "NSE_SYMBOL": "GILLETTE",
         "DESCRIPTION": "Gillette India Limited is a public company incorporated under the provisions of the Companies Act 1956. The company is engaged in manufacturing and selling of packaged fast moving goods under its various brands in the grooming and oral care segment.",
-        "SALES_GROWTH_5Y": "4%",
-        "SALES_GROWTH_3Y": "4%",
-        "SALES_GROWTH_TTM": "8%",
-        "PROFIT_GROWTH_5Y": "10%",
-        "PROFIT_GROWTH_3Y": "11%",
-        "PROFIT_GROWTH_TTM": "27%",
-        "QUARTERLY_RESULTS": [
-            {
-                "quarter": "Sep 2022",
-                "operating_profit": "136",
-                "opm": "22%",
-                "interest": "0",
-                "depreciation": "18",
-                "profit_before_tax": "120",
-                "tax_rate": "28%",
-                "eps": "26.63"
-            },
-            {
-                "quarter": "Dec 2022",
-                "operating_profit": "126",
-                "opm": "20%",
-                "interest": "3",
-                "depreciation": "19",
-                "profit_before_tax": "106",
-                "tax_rate": "30%",
-                "eps": "22.85"
-            },
-            {
-                "quarter": "Mar 2023",
-                "operating_profit": "134",
-                "opm": "22%",
-                "interest": "1",
-                "depreciation": "22",
-                "profit_before_tax": "123",
-                "tax_rate": "16%",
-                "eps": "31.52"
-            },
-            {
-                "quarter": "Jun 2023",
-                "operating_profit": "144",
-                "opm": "23%",
-                "interest": "3",
-                "depreciation": "22",
-                "profit_before_tax": "124",
-                "tax_rate": "26%",
-                "eps": "28.16"
-            },
-            {
-                "quarter": "Sep 2023",
-                "operating_profit": "138",
-                "opm": "21%",
-                "interest": "1",
-                "depreciation": "20",
-                "profit_before_tax": "125",
-                "tax_rate": "26%",
-                "eps": "28.45"
-            },
-            {
-                "quarter": "Dec 2023",
-                "operating_profit": "157",
-                "opm": "25%",
-                "interest": "4",
-                "depreciation": "21",
-                "profit_before_tax": "139",
-                "tax_rate": "25%",
-                "eps": "31.90"
-            },
-            {
-                "quarter": "Mar 2024",
-                "operating_profit": "161",
-                "opm": "24%",
-                "interest": "4",
-                "depreciation": "21",
-                "profit_before_tax": "143",
-                "tax_rate": "31%",
-                "eps": "30.41"
-            },
-            {
-                "quarter": "Jun 2024",
-                "operating_profit": "176",
-                "opm": "27%",
-                "interest": "4",
-                "depreciation": "21",
-                "profit_before_tax": "155",
-                "tax_rate": "25%",
-                "eps": "35.59"
-            },
-            {
-                "quarter": "Sep 2024",
-                "operating_profit": "190",
-                "opm": "24%",
-                "interest": "1",
-                "depreciation": "19",
-                "profit_before_tax": "177",
-                "tax_rate": "25%",
-                "eps": "40.82"
-            },
-            {
-                "quarter": "Dec 2024",
-                "operating_profit": "183",
-                "opm": "27%",
-                "interest": "4",
-                "depreciation": "21",
-                "profit_before_tax": "167",
-                "tax_rate": "25%",
-                "eps": "38.66"
-            },
-            {
-                "quarter": "Mar 2025",
-                "operating_profit": "226",
-                "opm": "29%",
-                "interest": "3",
-                "depreciation": "25",
-                "profit_before_tax": "210",
-                "tax_rate": "24%",
-                "eps": "48.70"
-            },
-            {
-                "quarter": "Jun 2025",
-                "operating_profit": "210",
-                "opm": "30%",
-                "interest": "1",
-                "depreciation": "20",
-                "profit_before_tax": "195",
-                "tax_rate": "25%",
-                "eps": "44.71"
-            },
-            {
-                "quarter": "Sep 2025",
-                "operating_profit": "208",
-                "opm": "26%",
-                "interest": "4",
-                "depreciation": "20",
-                "profit_before_tax": "193",
-                "tax_rate": "25%",
-                "eps": "44.08"
-            }
-        ],
-        "MARKET_CAP": "27816",
-        "CURRENT_PRICE": "8535",
-        "HIGH_LOW_52W": "11505",
-        "PE_RATIO": "48.5",
-        "BOOK_VALUE": "357",
-        "DIVIDEND_YIELD": "1.31",
-        "ROCE": "56.1",
-        "ROE": "41.6",
-        "FACE_VALUE": "10.0",
-        "OPM_LATEST": "28%",
-        "DEBT_TO_EQUITY": "0.0"
+        "SALES_GROWTH_5Y": "%",
+        "SALES_GROWTH_3Y": "%",
+        "SALES_GROWTH_TTM": "%",
+        "PROFIT_GROWTH_5Y": "%",
+        "PROFIT_GROWTH_3Y": "%",
+        "PROFIT_GROWTH_TTM": "%"
     },
     "GINNIFILA": {
         "SYMBOL": "GINNIFILA",
@@ -34167,7 +34024,7 @@
             "NIFTY500 LARGEMIDSMALL EQUAL-CAP WEIGHTED",
             "NIFTY500 EQUAL WEIGHT"
         ],
-        "LAST_UPDATED": "2025-12-05 07:13:48",
+        "LAST_UPDATED": "2025-12-05 06:37:32",
         "BROAD_SECTOR": "Financial Services",
         "SECTOR_GROUP": "Financial Services",
         "SECTOR": "Insurance",
@@ -34330,134 +34187,11 @@
         "NSE_SYMBOL": "GODIGIT",
         "DESCRIPTION": "Incorporated in 2016, Go DigitGeneral Insurance Ltd providesmotor, health, and other insurances[1]",
         "SALES_GROWTH_5Y": "%",
-        "SALES_GROWTH_3Y": "35%",
-        "SALES_GROWTH_TTM": "10%",
+        "SALES_GROWTH_3Y": "%",
+        "SALES_GROWTH_TTM": "%",
         "PROFIT_GROWTH_5Y": "%",
-        "PROFIT_GROWTH_3Y": "51%",
-        "PROFIT_GROWTH_TTM": "77%",
-        "QUARTERLY_RESULTS": [
-            {
-                "quarter": "Mar 2023",
-                "operating_profit": "26",
-                "opm": "2%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "26",
-                "tax_rate": "0%",
-                "eps": "0.29"
-            },
-            {
-                "quarter": "Jun 2023",
-                "operating_profit": "58",
-                "opm": "3%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "58",
-                "tax_rate": "0%",
-                "eps": "0.67"
-            },
-            {
-                "quarter": "Sep 2023",
-                "operating_profit": "28",
-                "opm": "1%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "28",
-                "tax_rate": "0%",
-                "eps": "0.32"
-            },
-            {
-                "quarter": "Dec 2023",
-                "operating_profit": "43",
-                "opm": "2%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "43",
-                "tax_rate": "0%",
-                "eps": "0.49"
-            },
-            {
-                "quarter": "Mar 2024",
-                "operating_profit": "-415",
-                "opm": "-18%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "53",
-                "tax_rate": "0%",
-                "eps": "0.60"
-            },
-            {
-                "quarter": "Jun 2024",
-                "operating_profit": "101",
-                "opm": "5%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "101",
-                "tax_rate": "0%",
-                "eps": "1.10"
-            },
-            {
-                "quarter": "Sep 2024",
-                "operating_profit": "89",
-                "opm": "4%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "89",
-                "tax_rate": "0%",
-                "eps": "0.97"
-            },
-            {
-                "quarter": "Dec 2024",
-                "operating_profit": "118",
-                "opm": "5%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "119",
-                "tax_rate": "0%",
-                "eps": "1.29"
-            },
-            {
-                "quarter": "Mar 2025",
-                "operating_profit": "-209",
-                "opm": "-8%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "116",
-                "tax_rate": "0%",
-                "eps": "1.25"
-            },
-            {
-                "quarter": "Jun 2025",
-                "operating_profit": "159",
-                "opm": "7%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "161",
-                "tax_rate": "14%",
-                "eps": "1.50"
-            },
-            {
-                "quarter": "Sep 2025",
-                "operating_profit": "135",
-                "opm": "5%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "136",
-                "tax_rate": "0%",
-                "eps": "1.47"
-            }
-        ],
-        "MARKET_CAP": "31984",
-        "CURRENT_PRICE": "346",
-        "HIGH_LOW_52W": "381",
-        "PE_RATIO": "63.0",
-        "BOOK_VALUE": "50.2",
-        "DIVIDEND_YIELD": "0.00",
-        "ROCE": "10.8",
-        "ROE": "11.9",
-        "FACE_VALUE": "10.0",
-        "OPM_LATEST": "2%",
-        "DEBT_TO_EQUITY": "0.09"
+        "PROFIT_GROWTH_3Y": "%",
+        "PROFIT_GROWTH_TTM": "%"
     },
     "GODREJAGRO": {
         "SYMBOL": "GODREJAGRO",
@@ -35152,7 +34886,7 @@
             "NIFTY INDIA DEFENCE",
             "NIFTY INDIA INFRASTRUCTURE & LOGISTICS"
         ],
-        "LAST_UPDATED": "2025-12-05 07:13:54",
+        "LAST_UPDATED": "2025-12-05 06:37:35",
         "BROAD_SECTOR": "Industrials",
         "SECTOR_GROUP": "Capital Goods",
         "SECTOR": "Aerospace & Defense",
@@ -35464,155 +35198,12 @@
         "BSE_CODE": "542011",
         "NSE_SYMBOL": "GRSE",
         "DESCRIPTION": "Garden Reach Shipbuilders & Engineers Ltd is a premier shipbuilding company in India under the administrative control of the Ministry of Defence, primarily catering to the shipbuilding requirements of the Indian Navy and the Indian Coast Guard. GRSE is a diversified, profit making and the first Shipyard in the country to export warships and deliver 100 warships to the Indian Navy and Indian Coast Guard.[1]",
-        "SALES_GROWTH_5Y": "29%",
-        "SALES_GROWTH_3Y": "42%",
-        "SALES_GROWTH_TTM": "44%",
-        "PROFIT_GROWTH_5Y": "25%",
-        "PROFIT_GROWTH_3Y": "42%",
-        "PROFIT_GROWTH_TTM": "60%",
-        "QUARTERLY_RESULTS": [
-            {
-                "quarter": "Sep 2022",
-                "operating_profit": "48",
-                "opm": "7%",
-                "interest": "1",
-                "depreciation": "10",
-                "profit_before_tax": "79",
-                "tax_rate": "25%",
-                "eps": "5.13"
-            },
-            {
-                "quarter": "Dec 2022",
-                "operating_profit": "47",
-                "opm": "7%",
-                "interest": "1",
-                "depreciation": "10",
-                "profit_before_tax": "86",
-                "tax_rate": "26%",
-                "eps": "5.58"
-            },
-            {
-                "quarter": "Mar 2023",
-                "operating_profit": "20",
-                "opm": "3%",
-                "interest": "4",
-                "depreciation": "10",
-                "profit_before_tax": "76",
-                "tax_rate": "28%",
-                "eps": "4.83"
-            },
-            {
-                "quarter": "Jun 2023",
-                "operating_profit": "46",
-                "opm": "6%",
-                "interest": "5",
-                "depreciation": "10",
-                "profit_before_tax": "102",
-                "tax_rate": "25%",
-                "eps": "6.69"
-            },
-            {
-                "quarter": "Sep 2023",
-                "operating_profit": "49",
-                "opm": "5%",
-                "interest": "2",
-                "depreciation": "10",
-                "profit_before_tax": "107",
-                "tax_rate": "25%",
-                "eps": "7.05"
-            },
-            {
-                "quarter": "Dec 2023",
-                "operating_profit": "49",
-                "opm": "5%",
-                "interest": "1",
-                "depreciation": "10",
-                "profit_before_tax": "119",
-                "tax_rate": "26%",
-                "eps": "7.70"
-            },
-            {
-                "quarter": "Mar 2024",
-                "operating_profit": "91",
-                "opm": "9%",
-                "interest": "3",
-                "depreciation": "10",
-                "profit_before_tax": "153",
-                "tax_rate": "27%",
-                "eps": "9.74"
-            },
-            {
-                "quarter": "Jun 2024",
-                "operating_profit": "56",
-                "opm": "6%",
-                "interest": "4",
-                "depreciation": "10",
-                "profit_before_tax": "115",
-                "tax_rate": "24%",
-                "eps": "7.61"
-            },
-            {
-                "quarter": "Sep 2024",
-                "operating_profit": "69",
-                "opm": "6%",
-                "interest": "2",
-                "depreciation": "11",
-                "profit_before_tax": "131",
-                "tax_rate": "25%",
-                "eps": "8.53"
-            },
-            {
-                "quarter": "Dec 2024",
-                "operating_profit": "75",
-                "opm": "6%",
-                "interest": "2",
-                "depreciation": "11",
-                "profit_before_tax": "134",
-                "tax_rate": "27%",
-                "eps": "8.57"
-            },
-            {
-                "quarter": "Mar 2025",
-                "operating_profit": "221",
-                "opm": "13%",
-                "interest": "1",
-                "depreciation": "10",
-                "profit_before_tax": "324",
-                "tax_rate": "25%",
-                "eps": "21.32"
-            },
-            {
-                "quarter": "Jun 2025",
-                "operating_profit": "112",
-                "opm": "9%",
-                "interest": "6",
-                "depreciation": "12",
-                "profit_before_tax": "167",
-                "tax_rate": "28%",
-                "eps": "10.49"
-            },
-            {
-                "quarter": "Sep 2025",
-                "operating_profit": "156",
-                "opm": "9%",
-                "interest": "4",
-                "depreciation": "12",
-                "profit_before_tax": "209",
-                "tax_rate": "27%",
-                "eps": "13.43"
-            }
-        ],
-        "MARKET_CAP": "29223",
-        "CURRENT_PRICE": "2551",
-        "HIGH_LOW_52W": "3538",
-        "PE_RATIO": "47.4",
-        "BOOK_VALUE": "200",
-        "DIVIDEND_YIELD": "0.54",
-        "ROCE": "36.6",
-        "ROE": "27.6",
-        "FACE_VALUE": "10.0",
-        "OPM_LATEST": "10%",
-        "DEBT_TO_EQUITY": "0.01"
+        "SALES_GROWTH_5Y": "%",
+        "SALES_GROWTH_3Y": "%",
+        "SALES_GROWTH_TTM": "%",
+        "PROFIT_GROWTH_5Y": "%",
+        "PROFIT_GROWTH_3Y": "%",
+        "PROFIT_GROWTH_TTM": "%"
     },
     "GRWRHITECH": {
         "SYMBOL": "GRWRHITECH",
@@ -48531,7 +48122,7 @@
             "NIFTY500 VALUE 50",
             "NIFTY500 FLEXICAP QUALITY 30"
         ],
-        "LAST_UPDATED": "2025-12-05 07:14:01",
+        "LAST_UPDATED": "2025-12-05 06:38:31",
         "BROAD_SECTOR": "Financial Services",
         "SECTOR_GROUP": "Financial Services",
         "SECTOR": "Banks",
@@ -48903,128 +48494,12 @@
         "BSE_CODE": "590003",
         "NSE_SYMBOL": "KARURVYSYA",
         "DESCRIPTION": "Karur Vysya Bank is engaged in providing a wide range of banking and financial services including commercial banking and treasury operations.[1]",
-        "SALES_GROWTH_5Y": "10%",
-        "SALES_GROWTH_3Y": "20%",
-        "SALES_GROWTH_TTM": "15%",
-        "PROFIT_GROWTH_5Y": "52%",
-        "PROFIT_GROWTH_3Y": "42%",
-        "PROFIT_GROWTH_TTM": "17%",
-        "QUARTERLY_RESULTS": [
-            {
-                "quarter": "Sep 2022",
-                "interest": "758",
-                "depreciation": "0",
-                "profit_before_tax": "345",
-                "tax_rate": "28%",
-                "eps": "2.61"
-            },
-            {
-                "quarter": "Dec 2022",
-                "interest": "806",
-                "depreciation": "0",
-                "profit_before_tax": "325",
-                "tax_rate": "11%",
-                "eps": "3.01"
-            },
-            {
-                "quarter": "Mar 2023",
-                "interest": "876",
-                "depreciation": "0",
-                "profit_before_tax": "446",
-                "tax_rate": "24%",
-                "eps": "3.51"
-            },
-            {
-                "quarter": "Jun 2023",
-                "interest": "986",
-                "depreciation": "0",
-                "profit_before_tax": "489",
-                "tax_rate": "27%",
-                "eps": "3.72"
-            },
-            {
-                "quarter": "Sep 2023",
-                "interest": "1,082",
-                "depreciation": "0",
-                "profit_before_tax": "512",
-                "tax_rate": "26%",
-                "eps": "3.93"
-            },
-            {
-                "quarter": "Dec 2023",
-                "interest": "1,138",
-                "depreciation": "0",
-                "profit_before_tax": "526",
-                "tax_rate": "22%",
-                "eps": "4.27"
-            },
-            {
-                "quarter": "Mar 2024",
-                "interest": "1,189",
-                "depreciation": "0",
-                "profit_before_tax": "574",
-                "tax_rate": "20%",
-                "eps": "4.73"
-            },
-            {
-                "quarter": "Jun 2024",
-                "interest": "1,260",
-                "depreciation": "0",
-                "profit_before_tax": "613",
-                "tax_rate": "25%",
-                "eps": "4.75"
-            },
-            {
-                "quarter": "Sep 2024",
-                "interest": "1,324",
-                "depreciation": "0",
-                "profit_before_tax": "636",
-                "tax_rate": "26%",
-                "eps": "4.90"
-            },
-            {
-                "quarter": "Dec 2024",
-                "interest": "1,407",
-                "depreciation": "0",
-                "profit_before_tax": "668",
-                "tax_rate": "26%",
-                "eps": "5.14"
-            },
-            {
-                "quarter": "Mar 2025",
-                "interest": "1,427",
-                "depreciation": "0",
-                "profit_before_tax": "674",
-                "tax_rate": "24%",
-                "eps": "5.31"
-            },
-            {
-                "quarter": "Jun 2025",
-                "interest": "1,489",
-                "depreciation": "0",
-                "profit_before_tax": "687",
-                "tax_rate": "24%",
-                "eps": "5.40"
-            },
-            {
-                "quarter": "Sep 2025",
-                "interest": "1,547",
-                "depreciation": "0",
-                "profit_before_tax": "743",
-                "tax_rate": "23%",
-                "eps": "5.94"
-            }
-        ],
-        "MARKET_CAP": "23873",
-        "CURRENT_PRICE": "247",
-        "HIGH_LOW_52W": "258",
-        "PE_RATIO": "11.3",
-        "BOOK_VALUE": "132",
-        "DIVIDEND_YIELD": "0.88",
-        "ROCE": "7.38",
-        "ROE": "17.6",
-        "FACE_VALUE": "2.00",
-        "DEBT_TO_EQUITY": "0.2"
+        "SALES_GROWTH_5Y": "%",
+        "SALES_GROWTH_3Y": "%",
+        "SALES_GROWTH_TTM": "%",
+        "PROFIT_GROWTH_5Y": "%",
+        "PROFIT_GROWTH_3Y": "%",
+        "PROFIT_GROWTH_TTM": "%"
     },
     "KAUSHALYA": {
         "SYMBOL": "KAUSHALYA",
@@ -79794,7 +79269,7 @@
             "NIFTY500 EQUAL WEIGHT",
             "NIFTY500 LOW VOLATILITY 50"
         ],
-        "LAST_UPDATED": "2025-12-05 07:14:07",
+        "LAST_UPDATED": "2025-12-05 06:40:15",
         "BROAD_SECTOR": "Financial Services",
         "SECTOR_GROUP": "Financial Services",
         "SECTOR": "Insurance",
@@ -80106,155 +79581,12 @@
         "BSE_CODE": "543412",
         "NSE_SYMBOL": "STARHEALTH",
         "DESCRIPTION": "Star Health & Allied Insurance Ltd (Star)  is  India\u2019s first Standalone Health Insurance provider and is the largest private health insurer in India with a market share of 15.8% in the Indian health insurance market in FY21 with leadership in the attractive retail health segment.[1]",
-        "SALES_GROWTH_5Y": "26%",
-        "SALES_GROWTH_3Y": "15%",
-        "SALES_GROWTH_TTM": "11%",
-        "PROFIT_GROWTH_5Y": "19%",
-        "PROFIT_GROWTH_3Y": "38%",
-        "PROFIT_GROWTH_TTM": "-38%",
-        "QUARTERLY_RESULTS": [
-            {
-                "quarter": "Sep 2022",
-                "operating_profit": "120",
-                "opm": "4%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "121",
-                "tax_rate": "23%",
-                "eps": "1.61"
-            },
-            {
-                "quarter": "Dec 2022",
-                "operating_profit": "280",
-                "opm": "9%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "282",
-                "tax_rate": "25%",
-                "eps": "3.62"
-            },
-            {
-                "quarter": "Mar 2023",
-                "operating_profit": "135",
-                "opm": "4%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "136",
-                "tax_rate": "25%",
-                "eps": "1.75"
-            },
-            {
-                "quarter": "Jun 2023",
-                "operating_profit": "384",
-                "opm": "12%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "384",
-                "tax_rate": "25%",
-                "eps": "4.95"
-            },
-            {
-                "quarter": "Sep 2023",
-                "operating_profit": "165",
-                "opm": "5%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "167",
-                "tax_rate": "25%",
-                "eps": "2.15"
-            },
-            {
-                "quarter": "Dec 2023",
-                "operating_profit": "387",
-                "opm": "11%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "388",
-                "tax_rate": "25%",
-                "eps": "4.95"
-            },
-            {
-                "quarter": "Mar 2024",
-                "operating_profit": "186",
-                "opm": "5%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "190",
-                "tax_rate": "25%",
-                "eps": "2.43"
-            },
-            {
-                "quarter": "Jun 2024",
-                "operating_profit": "425",
-                "opm": "11%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "426",
-                "tax_rate": "25%",
-                "eps": "5.45"
-            },
-            {
-                "quarter": "Sep 2024",
-                "operating_profit": "147",
-                "opm": "4%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "149",
-                "tax_rate": "25%",
-                "eps": "1.89"
-            },
-            {
-                "quarter": "Dec 2024",
-                "operating_profit": "285",
-                "opm": "7%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "287",
-                "tax_rate": "25%",
-                "eps": "3.66"
-            },
-            {
-                "quarter": "Mar 2025",
-                "operating_profit": "-7",
-                "opm": "-0%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "-1",
-                "tax_rate": "-159%",
-                "eps": "0.01"
-            },
-            {
-                "quarter": "Jun 2025",
-                "operating_profit": "351",
-                "opm": "8%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "352",
-                "tax_rate": "25%",
-                "eps": "4.47"
-            },
-            {
-                "quarter": "Sep 2025",
-                "operating_profit": "75",
-                "opm": "2%",
-                "interest": "0",
-                "depreciation": "0",
-                "profit_before_tax": "78",
-                "tax_rate": "29%",
-                "eps": "0.93"
-            }
-        ],
-        "MARKET_CAP": "27358",
-        "CURRENT_PRICE": "465",
-        "HIGH_LOW_52W": "534",
-        "PE_RATIO": "51.3",
-        "BOOK_VALUE": "127",
-        "DIVIDEND_YIELD": "0.00",
-        "ROCE": "12.0",
-        "ROE": "9.37",
-        "FACE_VALUE": "10.0",
-        "OPM_LATEST": "4%",
-        "DEBT_TO_EQUITY": "0.07"
+        "SALES_GROWTH_5Y": "%",
+        "SALES_GROWTH_3Y": "%",
+        "SALES_GROWTH_TTM": "%",
+        "PROFIT_GROWTH_5Y": "%",
+        "PROFIT_GROWTH_3Y": "%",
+        "PROFIT_GROWTH_TTM": "%"
     },
     "STARPAPER": {
         "SYMBOL": "STARPAPER",
