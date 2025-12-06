@@ -8,6 +8,7 @@ from abc import ABC, abstractmethod
 from typing import Optional, List, Dict, Any
 from datetime import datetime
 from src.config import settings
+from src.utils.data_reader import DataReader
 
 
 class BaseAnalyzer(ABC):
@@ -15,16 +16,9 @@ class BaseAnalyzer(ABC):
     
     def __init__(self):
         """Initialize the base analyzer."""
-        self.metadata = self._load_metadata()
+        self.data_reader = DataReader()
+        self.metadata = self.data_reader.get_all_metadata()
         self.raw_dir = settings.DATA_RAW_DIR
-        
-    def _load_metadata(self) -> Dict[str, Any]:
-        """Load stocks metadata from JSON file."""
-        if not os.path.exists(settings.METADATA_FILE):
-            raise FileNotFoundError(f"Metadata file not found: {settings.METADATA_FILE}")
-        
-        with open(settings.METADATA_FILE, 'r') as f:
-            return json.load(f)
     
     def get_stock_info(self, symbol: str) -> Optional[Dict[str, Any]]:
         """
@@ -48,53 +42,16 @@ class BaseAnalyzer(ABC):
         Returns:
             DataFrame with stock data or None if file doesn't exist
         """
-        file_path = os.path.join(self.raw_dir, f"{symbol}.csv")
+        df = self.data_reader.get_price_data(symbol)
         
-        if not os.path.exists(file_path):
+        if df is None:
             print(f"Data file not found for {symbol}")
             return None
         
-        try:
-            # Read CSV file
-            df = pd.read_csv(file_path)
-            
-            # Remove the Ticker and Date rows (first two rows after header)
-            # These rows have non-numeric data in the Price column
-            if len(df) > 2:
-                # Check if first row contains 'Ticker'
-                if df.iloc[0, 0] == 'Ticker':
-                    df = df.iloc[2:]  # Skip first two rows
-                    df.reset_index(drop=True, inplace=True)
-            
-            # Standardize column names
-            df.columns = [col.strip().upper() for col in df.columns]
-            
-            # Rename 'PRICE' column to 'CLOSE' for consistency
-            if 'PRICE' in df.columns:
-                df.rename(columns={'PRICE': 'CLOSE'}, inplace=True)
-            
-            # Parse date column
-            if 'DATE' in df.columns:
-                df['DATE'] = pd.to_datetime(df['DATE'], errors='coerce')
-                df = df.dropna(subset=['DATE'])  # Drop rows with invalid dates
-                df = df.sort_values('DATE')
-                df.reset_index(drop=True, inplace=True)
-            
-            # Convert numeric columns
-            numeric_cols = ['CLOSE', 'OPEN', 'HIGH', 'LOW', 'VOLUME']
-            for col in numeric_cols:
-                if col in df.columns:
-                    df[col] = pd.to_numeric(df[col], errors='coerce')
-            
-            # Drop rows with all NaN values
-            df = df.dropna(how='all')
-            
-            return df
-        except Exception as e:
-            print(f"Error loading data for {symbol}: {e}")
-            import traceback
-            traceback.print_exc()
-            return None
+        # Standardize column names to uppercase for compatibility
+        df.columns = [col.strip().upper() for col in df.columns]
+        
+        return df
     
     def filter_by_date_range(
         self, 

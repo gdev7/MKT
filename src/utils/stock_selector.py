@@ -14,6 +14,7 @@ from pathlib import Path
 from typing import List, Optional, Dict
 from src.config import settings
 from src.utils.logger import get_logger
+from src.utils.data_reader import DataReader
 
 logger = get_logger(__name__)
 
@@ -23,17 +24,8 @@ class StockSelector:
     
     def __init__(self):
         """Initialize stock selector."""
-        self.metadata_file = settings.METADATA_FILE
-        self.metadata = self._load_metadata()
-    
-    def _load_metadata(self) -> Dict:
-        """Load stocks metadata."""
-        if not Path(self.metadata_file).exists():
-            logger.error(f"Metadata file not found: {self.metadata_file}")
-            return {}
-        
-        with open(self.metadata_file, 'r') as f:
-            return json.load(f)
+        self.data_reader = DataReader()
+        self.metadata = self.data_reader.get_all_metadata()
     
     def get_all_stocks(self) -> List[str]:
         """
@@ -95,12 +87,8 @@ class StockSelector:
         if index_name in index_aliases:
             index_name = index_aliases[index_name]
         
-        # Find stocks in this index
-        symbols = []
-        for symbol, info in self.metadata.items():
-            indices = info.get('INDICES', [])
-            if isinstance(indices, list) and index_name in indices:
-                symbols.append(symbol)
+        # Use DataReader to get index constituents
+        symbols = self.data_reader.get_stocks_by_index(index_name)
         
         if not symbols:
             logger.warning(f"No stocks found for index: {index_name}")
@@ -344,35 +332,30 @@ class StockSelector:
         return valid_symbols
 
 
-def load_stock_data(symbols: List[str], data_dir: str = None) -> Dict[str, pd.DataFrame]:
+def load_stock_data(symbols: List[str], data_reader: Optional[DataReader] = None) -> Dict[str, pd.DataFrame]:
     """
     Load historical data for multiple stocks.
     
     Args:
         symbols: List of stock symbols
-        data_dir: Directory containing CSV files (default: settings.DATA_RAW_DIR)
+        data_reader: DataReader instance (creates new one if None)
     
     Returns:
         Dictionary of {symbol: DataFrame}
     """
-    if data_dir is None:
-        data_dir = settings.DATA_RAW_DIR
+    if data_reader is None:
+        data_reader = DataReader()
     
-    data_dir = Path(data_dir)
     stock_data = {}
     
     logger.info(f"Loading data for {len(symbols)} stocks...")
     
     for symbol in symbols:
-        csv_path = data_dir / f"{symbol}.csv"
+        df = data_reader.get_price_data(symbol)
         
-        if csv_path.exists():
-            try:
-                df = pd.read_csv(csv_path, parse_dates=['Date'], index_col='Date')
-                stock_data[symbol] = df
-                logger.debug(f"Loaded {symbol}: {len(df)} records")
-            except Exception as e:
-                logger.error(f"Error loading {symbol}: {e}")
+        if df is not None:
+            stock_data[symbol] = df
+            logger.debug(f"Loaded {symbol}: {len(df)} records")
         else:
             logger.warning(f"Data file not found for {symbol}")
     
